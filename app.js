@@ -8,7 +8,7 @@ const Job = require("./models/Job");
 const Sequelize = require("sequelize");
 const Op = Sequelize.Op;
 
-const PORT = 3333;
+const PORT = 80;
 
 
 app.listen(PORT, function () {
